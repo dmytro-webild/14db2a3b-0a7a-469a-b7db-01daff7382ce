@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureBento from '@/components/sections/feature/FeatureBento';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
@@ -10,10 +9,11 @@ import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCa
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import SplitAbout from '@/components/sections/about/SplitAbout';
 import TeamCardEleven from '@/components/sections/team/TeamCardEleven';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
-import { Grid, MessageCircle, Rocket, Users } from "lucide-react";
+import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
+import { Grid, MessageCircle, Rocket, Users, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -83,22 +83,18 @@ export default function LandingPage() {
   </div>
 
   <div id="about" data-section="about">
-      <SplitAbout
-      textboxLayout="default"
-      useInvertedBackground={true}
+      <TestimonialAboutCard
+      tag="Our Mission"
+      tagIcon={Sparkles}
+      tagAnimation="slide-up"
       title="Igniting Your Digital Presence"
       description="At Social Spark Agency, we don't just manage social media; we cultivate vibrant online communities and amplify your brand's voice. Our seasoned experts blend creativity with data-driven strategies to deliver unparalleled engagement and growth across all platforms."
-      bulletPoints={[
-        {
-          title: "Strategic Content",          description: "Crafting narratives that resonate and convert, tailored to your unique brand."},
-        {
-          title: "Targeted Campaigns",          description: "Precision-driven ad campaigns that reach your ideal audience with maximum impact."},
-        {
-          title: "Performance Analytics",          description: "Leveraging insights to optimize strategies and ensure continuous growth."},
-      ]}
+      subdescription="We craft compelling narratives, execute precision-targeted campaigns, and leverage insightful analytics to ensure your brand's message not only reaches but also deeply resonates with your ideal audience, transforming followers into loyal customers."
+      icon={Sparkles}
       imageSrc="http://img.b2bpic.net/free-photo/young-caucasian-women-working-laptops-drinking-coffee_74855-10459.jpg"
       imageAlt="Modern social media agency office interior"
       mediaAnimation="slide-up"
+      useInvertedBackground={true}
     />
   </div>
 
@@ -240,19 +236,22 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
+      <ContactSplitForm
       useInvertedBackground={false}
-      background={{
-        variant: "radial-gradient"}}
-      tag="Let's Connect"
-      title="Ready to Spark Your Social Presence?"
-      description="Reach out today for a complimentary consultation and discover how Social Spark Agency can elevate your brand's digital story."
-      buttons={[
-        {
-          text: "Schedule a Consultation",          href: "mailto:info@socialspark.com"},
-        {
-          text: "Call Us",          href: "tel:+1234567890"},
+      title="Let's Build Something Great Together"
+      description="Ready to elevate your social media strategy? Fill out the form below, and our team will get back to you within 24 hours for a personalized consultation."
+      inputs={[
+        { name: "name", type: "text", placeholder: "Your Name", required: true },
+        { name: "email", type: "email", placeholder: "Your Email", required: true },
+        { name: "subject", type: "text", placeholder: "Subject", required: false },
       ]}
+      textarea={{ name: "message", placeholder: "Your Message", rows: 5, required: true }}
+      buttonText="Send Message"
+      imageSrc="http://img.b2bpic.net/free-photo/diverse-colleagues-collaborating-coworking-space_23-2148780703.jpg"
+      imageAlt="Diverse team collaborating in an office"
+      mediaAnimation="slide-up"
+      mediaPosition="left"
+      onSubmit={(data) => console.log(data)} // Placeholder onSubmit
     />
   </div>
 
