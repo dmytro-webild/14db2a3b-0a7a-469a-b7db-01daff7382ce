@@ -83,27 +83,27 @@ export default function LandingPage() {
       ]}
       slides={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/business-executives-reading-sticky-notes_1170-1720.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/business-executives-reading-sticky-notes_1170-1720.jpg?_wi=1",
           imageAlt: "Social media marketing team brainstorming",
           videoAriaLabel: "Social media team collaborating on a strategy",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/employee-coming-ai-startup-office-cto-manager-desk-request-help_482257-125536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/employee-coming-ai-startup-office-cto-manager-desk-request-help_482257-125536.jpg?_wi=1",
           imageAlt: "Creative content creation for social media",
           videoAriaLabel: "Content creators preparing social media visuals",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/young-team-coworkers-working-project_273609-16177.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-team-coworkers-working-project_273609-16177.jpg?_wi=1",
           imageAlt: "Social media analytics dashboard showing growth",
           videoAriaLabel: "Analyzing social media performance metrics",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-writing-her-journal_23-2150416367.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-writing-her-journal_23-2150416367.jpg?_wi=1",
           imageAlt: "Person scrolling through social media feed",
           videoAriaLabel: "Engaging with social media content on a smartphone",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg?_wi=1",
           imageAlt: "Diverse team celebrating social media success",
           videoAriaLabel: "Marketing professionals high-fiving after a successful campaign",
         },
@@ -161,7 +161,7 @@ export default function LandingPage() {
           title: "Engagement Growth",
           description: "Watch your interactions, followers, and brand loyalty soar with our proven strategies.",
           bentoComponent: "animated-bar-chart",
-          imageSrc: "http://img.b2bpic.net/free-photo/business-executives-reading-sticky-notes_1170-1720.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/business-executives-reading-sticky-notes_1170-1720.jpg?_wi=2",
           imageAlt: "global social media marketing reach",
         },
         {
@@ -169,7 +169,7 @@ export default function LandingPage() {
           description: "We develop and execute a tailored content plan that speaks directly to your target audience.",
           bentoComponent: "reveal-icon",
           icon: Grid,
-          imageSrc: "http://img.b2bpic.net/free-photo/employee-coming-ai-startup-office-cto-manager-desk-request-help_482257-125536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/employee-coming-ai-startup-office-cto-manager-desk-request-help_482257-125536.jpg?_wi=2",
           imageAlt: "global social media marketing reach",
         },
         {
@@ -177,7 +177,7 @@ export default function LandingPage() {
           description: "Maximize your ROI with highly targeted advertising campaigns across all major platforms.",
           bentoComponent: "reveal-icon",
           icon: Rocket,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-team-coworkers-working-project_273609-16177.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-team-coworkers-working-project_273609-16177.jpg?_wi=2",
           imageAlt: "global social media marketing reach",
         },
         {
@@ -185,7 +185,7 @@ export default function LandingPage() {
           description: "Connect with key opinion leaders to build authentic brand advocacy and reach new markets.",
           bentoComponent: "reveal-icon",
           icon: Users,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-writing-her-journal_23-2150416367.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-writing-her-journal_23-2150416367.jpg?_wi=2",
           imageAlt: "global social media marketing reach",
         },
         {
@@ -193,7 +193,7 @@ export default function LandingPage() {
           description: "Foster a loyal brand community through active moderation and engaging interaction.",
           bentoComponent: "reveal-icon",
           icon: MessageCircle,
-          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg?_wi=2",
           imageAlt: "global social media marketing reach",
         },
       ]}
@@ -355,7 +355,7 @@ export default function LandingPage() {
               imageAlt: "Sophie Lee, Community Lead",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/business-executives-reading-sticky-notes_1170-1720.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/business-executives-reading-sticky-notes_1170-1720.jpg?_wi=3",
           imageAlt: "male social media strategist headshot",
         },
       ]}
